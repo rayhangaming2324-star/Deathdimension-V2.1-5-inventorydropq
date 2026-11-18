@@ -23,7 +23,6 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
-          cache: maven
 
       - name: Find or Extract Maven Source
         shell: bash
